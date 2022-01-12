@@ -5,3 +5,4 @@ RUN mkdir -p /go/src/github.com/kelseyhightower/confd && \
   ln -s /go/src/github.com/kelseyhightower/confd /app
 
 WORKDIR /app
+

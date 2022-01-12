@@ -72,7 +72,7 @@ func init() {
 	flag.StringVar(&config.Username, "username", "", "the username to authenticate as (only used with vault and etcd backends)")
 	flag.StringVar(&config.Password, "password", "", "the password to authenticate with (only used with vault and etcd backends)")
 	flag.BoolVar(&config.Watch, "watch", false, "enable watch support")
-	flag.StringVar(&config.Url, "url", "", "the url of http backend")
+	flag.StringVar(&config.Url, "url", "", "the base url for http backend")
 
 }
 
